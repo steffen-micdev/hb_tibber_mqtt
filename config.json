@@ -1,0 +1,10 @@
+{
+  "accessories": [
+    {
+      "accessory": "SmartMeterMQTT",
+      "name": "Smart Meter",
+      "mqttUrl": "mqtt://127.0.0.1",
+      "topic": "tibber-bridge/TFD01"
+    }
+  ]
+}

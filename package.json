@@ -1,0 +1,20 @@
+{
+  "name": "hb-tibber-mqtt",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for smart meters via MQTT (SML decoding)",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "smartmeter",
+    "mqtt",
+    "sml"
+  ],
+  "engines": {
+    "homebridge": ">=1.6.0",
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "mqtt": "^5.0.0",
+    "smartmeter-obis": "^0.9.1"
+  }
+}
